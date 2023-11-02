@@ -1,0 +1,348 @@
+.text-yellow {
+    color: #f0e000;
+}
+
+.text-hitam {
+    color: black;
+}
+
+.text-hitam2 {
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .text-hitam2 {
+        color: black;
+    }
+}
+
+.link-btn a {
+    color: black;
+}
+
+.link-btn a:hover {
+    color: #f0e000;
+}
+
+.text-hitam:hover {
+    color: #f0e000;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.rounded-bulat {
+    border-radius: 50%;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.mt-1- {
+    margin-top: -10px;
+}
+
+.mb-1- {
+    margin-bottom: 3px;
+}
+
+.bg-yellow {
+    background-color: #fff000;
+}
+
+.bg-abu {
+    background-color: rgb(243, 243, 243);
+}
+
+.btn-outline-black {
+    background-color: white;
+    color: #1f1f1f;
+}
+
+.btn-outline-black:hover {
+    background-color: #1f1f1f;
+    transition: 1s;
+}
+
+.img-informasi {
+    max-width: 25%;
+    height: auto;
+}
+
+.text-info-date {
+    font-size: 8pt;
+}
+
+.text-info-head {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.img-galeri {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-galeri a {
+    height: 300px;
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-gambar {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 10px;
+    position: relative;
+}
+
+.img-galeri-home {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-galeri-home a {
+    height: 200px;
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-gambar-home {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 10px;
+    position: relative;
+}
+
+.img-galeri-detil {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-galeri-detil a {
+    height: 50px;
+    width: 70px;
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-gambar-detil {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 8px;
+    position: relative;
+}
+
+.img-galeri-struktur {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-galeri-struktur a {
+    height: 270px;
+    width: 220px;
+    flex-grow: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.img-gambar-struktur {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 8px;
+    position: relative;
+}
+
+.img-gambar:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.img-galeri .text-gambar {
+    display: none;
+}
+
+.img-galeri:hover > .text-gambar {
+    display: block;
+    transition: 3s;
+}
+
+.img-galeri:hover > .bg-img {
+    display: block;
+    transition: 3s;
+}
+
+.bg-img {
+    display: none;
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+    background: rgb(22, 22, 22);
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        from(rgb(22, 22, 22)),
+        to(rgba(0, 212, 255, 0))
+    );
+    background: -webkit-linear-gradient(
+        bottom,
+        rgb(22, 22, 22) 0%,
+        rgba(0, 212, 255, 0) 100%
+    );
+    background: -o-linear-gradient(
+        bottom,
+        rgb(22, 22, 22) 0%,
+        rgba(0, 212, 255, 0) 100%
+    );
+    background: linear-gradient(
+        0deg,
+        rgb(22, 22, 22) 0%,
+        rgba(0, 212, 255, 0) 100%
+    );
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.text-gambar {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    padding: 10px 40px;
+    z-index: 3;
+}
+
+.img-logo {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.img-berita {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+    .img-berita {
+        height: 300px;
+    }
+}
+
+.img-berita:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.mb--berita {
+    margin-bottom: -600px;
+}
+
+.mt--logo {
+    margin-top: -17px;
+}
+
+.login-box {
+    width: 340px;
+    box-sizing: border-box;
+}
+
+.login-border {
+    border: none;
+}
+
+.login-border::placeholder {
+    font-size: 15px;
+}
+
+.login-img {
+    object-fit: cover;
+    background: url("../images/login-head.jpg");
+    background-size: cover;
+}
+
+.login-box form {
+    width: 100%;
+}
+
+.-mb-text {
+    margin-bottom: 6px;
+}
+
+.-mb-text2 {
+    margin-bottom: -8px;
+}
+
+.text-dcm {
+    font-size: 11px;
+    display: inline;
+}
+
+.text-tebal {
+    font-weight: bold;
+}
+
+.animate:hover {
+    transform: translateX(10px);
+    transition: 1s all;
+}
+
+.-mb-judul {
+    margin-bottom: 1px;
+}
+
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 200px;
+}
+.ck-content .image {
+    /* block images */
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+#container img {
+    max-width: 100%;
+    height: auto;
+}
+
+#container table {
+    max-width: 100%;
+    height: auto;
+}
+
+#container figure {
+    max-width: 100%;
+    height: auto;
+}
+
+.pb-login {
+    padding-bottom: 350px;
+}
+
+.ms-login {
+    margin-left: 100px;
+}
